@@ -1,0 +1,27 @@
+{
+    "name": "zloykolobok/slug",
+    "description": "Generation slug",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Roman Nikolaenkov",
+            "email": "rnikolaenkov@yandex.ru"
+        }
+    ],
+    "require": {
+        "Illuminate/Support": "^5.8",
+        "Illuminate/Routing": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "zloykolobok\\slug\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "zloykolobok\\slug\\ServiceProvider"
+            ]
+        }
+    }
+}
