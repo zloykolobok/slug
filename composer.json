@@ -9,8 +9,8 @@
         }
     ],
     "require": {
-        "Illuminate/Support": "^5.8",
-        "Illuminate/Routing": "^5.8"
+        "illuminate/support": "^5.8",
+        "illuminate/routing": "^5.8"
     },
     "autoload": {
         "psr-4": {
